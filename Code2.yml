@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: EC2 instance using CF
+
+Resources: 
+  MyEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId:  ami-97785bed
+      InstanceType: t2.micro
+      SubnetId: subnet-8c6cd3c7
+      KeyName:  iaccpk.pem
+      SecurityGroupIds:
+        - sg-954b57e2
+        - sg-e3d4eb91
+      Tags:
+        -
+          Key:  "Name"
+          Value:  "CF"
+        -
+          Key:  "Format"
+          Value:  "Auto"
