@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: EC2 instance using CF
+Description: Version 2.1 EC2 instance using CF
 
 Resources: 
   MyEC2Instance:

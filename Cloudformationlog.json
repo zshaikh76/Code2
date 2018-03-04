@@ -1,7 +1,7 @@
 {
     "AWSTemplateFormatVersion" : "2010-09-09",
   
-    "Description": "Version 2 AWS CloudFormation Sample Template CloudWatch_Logs: Provisions a minimal web application, and demonstrates how to stream the provisioning logs (cloud-init.log, cfn-init.log, cfn-hup.log, and cfn-wire.log) to CloudWatch Logs. This eliminates the need to SSH into an EC2 instance for debugging provisioning issues. Simply view the logs in the AWS CloudWatch console. **WARNING** You will be billed for the AWS resources if you create a stack from this template.",
+    "Description": "Version 2.1 AWS CloudFormation Sample Template CloudWatch_Logs: Provisions a minimal web application, and demonstrates how to stream the provisioning logs (cloud-init.log, cfn-init.log, cfn-hup.log, and cfn-wire.log) to CloudWatch Logs. This eliminates the need to SSH into an EC2 instance for debugging provisioning issues. Simply view the logs in the AWS CloudWatch console. **WARNING** You will be billed for the AWS resources if you create a stack from this template.",
   
     "Parameters" : {
       "InstanceType" : {
